@@ -1,3 +1,15 @@
+Updated version from the excellent original files;
+
+Mostly this just fixes a couple of small things that were stopping my code compiling successfully, the include moving_average.h was the biggest problem,
+along with a missing hyphen further down in the code. 
+
+I've also changed the data in the Temp and fuel curve to match the data sheets I could find for my Bukh DV20s temp sender and theoretical fuel consumption, 
+but I can't speak for the accuracy of these just yet. I'll update the decription once I've done some actual testing on the boat.
+
+All this has been tested running on an ESP32 devkit C v4 and works great. 
+
+Original description below:
+
 # ESP32-code
 Here is the code I'm running on my ESP32 as of Feb 2023
 
